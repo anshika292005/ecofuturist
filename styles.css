@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Bebas+Neue&family=Cutive&family=Kumbh+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=BIZ+UDPMincho&family=Bebas+Neue&family=Cutive&family=Kumbh+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=BIZ+UDPMincho&family=Bebas+Neue&family=Cutive&family=Gothic+A1&family=Kumbh+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+*{
+    margin: 0;
+}
+.header{
+    margin: 0 3.333vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.111vw 0;
+}
+.heading{
+    font-family: Abyssinica SIL;
+    font-size: 2.917vw;
+    font-weight: 400;
+    line-height: 2.917vw;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+.pagelink{
+    display: flex;
+    gap: 2.222vw;
+}
+a{
+    gap: 6.667vw;
+    font-family: BIZ UDPMincho;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.917vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+.border{
+    border: 0.5px solid rgba(0, 0, 0, 1);
+}
+.container{
+    padding: 3.333vw 0;
+    margin: 0 3.333vw;
+}
+.main{
+    padding: 6.667vw 0;
+}
+.landing1{
+    display: flex;
+    flex-direction: column;
+    gap: 3.333vw;
+}
+.head{
+    font-family: BIZ UDPMincho;
+    font-size: 8.333vw;
+    font-weight: 400;
+    line-height: 8.333vw;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.one{
+    width: 100%;
+    border-radius: 22px;
+}
+.page_sec{
+    padding: 6.667vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt{
+    font-family: BIZ UDPMincho;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.611vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    width: 62.5vw;
+}
+.list-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.333vw 0;
+    gap: 3.333vw;
+}
+.hea{
+    font-family: BIZ UDPMincho;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.111vw;
+}
+.row{
+    display: flex;
+    gap: 12.333vw;
+    font-family: Gothic A1;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
+}
+.row > p{
+    width: 15vw;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(175.81deg, rgba(255, 255, 255, 0.7) 27.37%, rgba(25, 51, 45, 0.455) 96.85%);
+    padding-right: 4.444vw;
+    border-radius: 1.528vw;
+    border: 1px solid black;
+    
+}
+.cardpd{
+    width: 100%;
+    height: auto;
+    /* padding: 5vw;  */
+    overflow: hidden;
+}
+.cardpd img{
+    margin-left: -8vw;
+    /* width: 50vw;
+    height: 50vw;
+    margin-left: -11.111vw; */
+    width: 100%;
+    scale: 1.01;
+    object-fit: cover;
+}
+.he{
+    font-family: BIZ UDPMincho;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.611vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 1.111vw;
+}
+.para{
+    font-family: Gothic A1;
+    font-size: 1.667vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.005em;
+    text-align: left;      
+}
+.single-feature{
+    background-color: rgba(242, 246, 245, 1);
+    background: linear-gradient(175.81deg, rgba(255, 255, 255, 0.7) 27.37%, rgba(25, 51, 45, 0.319) 96.85%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img_{
+    width: 60.278vw;
+    padding-right: 1vw;
+}
+.textcontent{
+    padding-left: 3.33vw;
+    display: flex;
+    flex-direction: column;
+}
+.heady{
+    font-family: BIZ UDPMincho;
+    font-size: 4.444vw;
+    font-weight: 400;
+    line-height: 4.722vw;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-bottom: 1.5vw;
+}
+.text{
+    font-family: Gothic A1;
+    font-size: 1.667vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.005em;
+    text-align: left;
+    padding-bottom: 3.333vw;
+}
+.btn{
+    padding: 0.833vw 1.667vw;
+    border-radius: 8px;
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
+    color: white;
+    background-color: rgba(25, 51, 45, 1);
+    width: 13.736vw;
+}
+.last{
+    display: flex;
+    padding: 5.333vw 0;
+    gap: 3.333vw;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3.333vw;
+}
+.head1{
+    font-family: BIZ UDPMincho;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.4vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 1.667vw;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(218, 218, 202, 0.4);
+    width: 20vw;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    padding: 1.667vw;
+    gap: 1.111vw;
+    border-radius: 1.111vw;
+}
+.name-container{
+    display: flex;
+    gap: 0.833vw;
+    background-color: transparent;
+    margin: 0 1.333vw;
+}
+.avatar{
+    border-radius: 50%;
+    width: 3.333vw;
+    height: 3.333vw;
+    background-color: transparent;
+}
+.n{
+    background-color: transparent;
+}
+.name{
+    font-family: Gothic A1;
+    font-size: 1.042vw;
+    font-weight: 600;
+    line-height: 1.389vw;
+    text-align: left;
+}
+.designation{
+    font-family: Kumbh Sans;
+    font-size: 1.042vw;
+    font-weight: 500;
+    line-height: 1.389vw;
+    text-align: left;
+    background-color: transparent;
+    color: rgba(29, 34, 27, 0.62);
+}
+.comment-container{
+    background-color: transparent;
+    padding: 0 0 0.556vw 0;
+    gap: 0.833vw;
+    opacity: 80%;
+    display: flex;
+    margin: 0 3.332vw;
+    gap: 2vw;
+}
+.line{
+    border-radius: 1px;
+    border: 1px solid rgba(23, 52, 9, 0.16);
+    text-align: center;
+    background-color: transparent;
+}
+.comment{
+    width: 12.5vw;
+    font-family: Gothic A1;
+    font-size: 1.389vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+    background-color: transparent;
+}
+.footer {
+    margin: 0 3.333vw;
+    padding-top: 6.667vw;
+    padding-bottom: 1.667vw;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.pagelink{
+    font-family: BIZ UDPMincho;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.contact{
+    padding: 0.833vw 1.667vw 0.833vw 1.667vw;
+    border-radius: 8px;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 600;
+    line-height: 1.667vw;
+    text-align: left;
+}
